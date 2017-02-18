@@ -1,0 +1,155 @@
+/* cyrillic */
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v8/vtwNVMP8y9C17vLvIBNZI_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v8/ATKpv8nLYAKUYexo8iqqrg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body{
+    height: 2000px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.pages{
+    margin: 20px;
+    position: relative;
+}
+.page{
+    box-sizing: border-box;
+
+    margin: 0 auto 0;
+    width: 520px;
+    height:750px;
+    float: left;
+    font-size: 12px;
+}
+
+
+h1{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+footer{
+    font-size: 9px;
+    text-align: center;
+}
+
+.share-text{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+
+.social-icon{
+    width:30px;
+    height:30px;
+}
+
+.share-block{
+    top:86%;
+    right:0;
+    position: fixed;
+    height: 70px;
+    width: 155px;
+    border: 2px solid #000;
+    text-align:center;
+    background: #fbaf5d;
+    font-size: 12px;
+
+}
+
+.gray-dark{
+    background: #acacac;
+    position: absolute;
+    left: 360px;
+    top:210px;
+    border: 2px solid #000;
+}
+.gray{
+    background: #cccccc;
+    position: absolute;
+    border: 2px solid #000;
+    left: 330px;
+    top: 180px;
+    z-index:1;
+}
+.gray-light{
+    position: absolute;
+    top: 150px;
+    left:300px;
+    background: #ebebeb;
+    border: 2px solid #000;
+    z-index:3;
+    padding: 25px 32px 30px 30px;
+}
+
+.bookmarks{
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 0 10px 10px 0;
+}
+
+.bookmark-orange{
+    background:#f68e56;
+    top:215px;
+    left:790px;
+    z-index:4;
+}
+
+.bookmark-green{
+    background:#39b54a;
+    top:240px;
+    left:770px;
+    z-index:2;
+}
+
+.bookmark-blue{
+    background:#00aeef;
+    top:265px;
+    left: 745px;
+    z-index:1;
+}
+
+.joke{
+    width: 193px;
+    margin-bottom: 15px;
+}
+
+.clear-fix{
+    content:"";
+    height:0;
+    clear: both;
+    visibility: hidden;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.img-coffee{
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
